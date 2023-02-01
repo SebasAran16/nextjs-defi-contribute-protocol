@@ -46,7 +46,7 @@ export default function AboutUs() {
                   after some amount of tokens, but votations will have a greater
                   impact when having more tokens than sufficient
                 </li>
-                <li>Work as currency to donate in it's corresponding change</li>
+                <li>Work as currency to donate in its corresponding change</li>
                 <li>Postulate as Donee</li>
               </ul>
             </li>

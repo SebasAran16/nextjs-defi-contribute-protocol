@@ -10,7 +10,7 @@ import { DoneeRequestBox } from "../../src/components/DoneeRequestsBox";
 import { DoneeToEliminate } from "../../src/components/DoneeToEliminate";
 import styles from "/styles/Admin.module.css";
 
-export default function adminPage() {
+export default function AdminPage() {
   const { account } = useMoralis();
   const [isAuthenticated, setIsAuthenticated] = useState(false);
   const abi = abiDoc.abi;

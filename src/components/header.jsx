@@ -259,7 +259,7 @@ export const Header = () => {
                 closeNav();
               }}
             >
-              Donee's Area
+              Donee Area
             </Link>
             <Link
               className={styles.navFirstItem}

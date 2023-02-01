@@ -219,8 +219,8 @@ export default function Home() {
             <blockquote className={styles.skillContent}>
               <p className={styles.skillBody}>
                 An amazing protocol that allow us to index data directly from
-                the Blockchain by hearing the contract's events. Also, GraphQl
-                which allows us to uery that information.
+                the Blockchain by hearing the events of the contract. Also,
+                GraphQl which allows us to uery that information.
               </p>
             </blockquote>
           </figure>
