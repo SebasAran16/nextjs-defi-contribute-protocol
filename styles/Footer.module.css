@@ -1,0 +1,12 @@
+.footer {
+  margin: var(--start-final-side-margins);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  border-top: 1px solid gray;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}

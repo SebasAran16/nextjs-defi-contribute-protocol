@@ -1,0 +1,41 @@
+.accountContainer {
+  display: flex;
+  align-items: center;
+  border-radius: var(--border-radius);
+  border: 1px solid gray;
+  padding: 0.5rem;
+}
+
+.accountContainer p {
+  margin-left: 0.5rem;
+}
+
+#connectButton {
+  background-color: #a6a900;
+}
+
+#disconnectButton {
+  padding: 0.25rem;
+  background-color: gray;
+  margin-left: 0.5rem;
+}
+
+#disconnectButton:hover {
+  transform: scale(1.05);
+}
+
+#avatarAndAddress {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+#avatarAndAddress p {
+  margin-top: 5px;
+}
+
+.nnEAa {
+  width: fit-content;
+}

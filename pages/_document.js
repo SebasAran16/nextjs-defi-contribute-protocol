@@ -1,13 +1,16 @@
-import { Html, Head, Main, NextScript } from 'next/document'
+import { Html, Head, Main, NextScript } from "next/document";
+import { NotificationProvider } from "web3uikit";
 
 export default function Document() {
   return (
     <Html lang="en">
       <Head />
       <body>
-        <Main />
-        <NextScript />
+        <NotificationProvider>
+          <Main />
+          <NextScript />
+        </NotificationProvider>
       </body>
     </Html>
-  )
+  );
 }

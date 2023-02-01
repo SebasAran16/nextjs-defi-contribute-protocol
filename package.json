@@ -9,11 +9,28 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@apollo/client": "^3.7.3",
+    "@moralisweb3/next": "^2.11.0",
     "@next/font": "13.1.1",
+    "@solana/buffer-layout": "^4.0.1",
+    "@web3uikit/core": "^0.2.38",
+    "@web3uikit/web3": "^0.2.2",
+    "dotenv": "^16.0.3",
     "eslint": "8.31.0",
+    "eslint-config": "^0.3.0",
     "eslint-config-next": "13.1.1",
-    "next": "13.1.1",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "ethers": "^5.7.2",
+    "graphql": "^16.6.0",
+    "magic-sdk": "^13.1.0",
+    "moralis": "^2.11.0",
+    "moralis-v1": "^1.12.0",
+    "next": "^13.1.1",
+    "next-auth": "^4.18.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-moralis": "^1.4.2",
+    "sass": "^1.57.1",
+    "swiper": "^8.4.6",
+    "web3uikit": "^1.0.4"
   }
 }

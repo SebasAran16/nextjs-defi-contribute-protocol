@@ -1,0 +1,24 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  padding: var(--start-final-side-margins);
+  text-align: center;
+}
+
+.doneesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  border: 1px solid gray;
+  border-radius: var(--border-radius);
+  padding: 1rem;
+}
+
+.doneesContainer a {
+  text-decoration: none;
+  color: white;
+}
+
+.noDoneeResponses {
+  align-self: center;
+}
