@@ -7,6 +7,7 @@ import { ENSAvatar } from "web3uikit";
 import { useNotification } from "@web3uikit/core";
 import { useEffect, useState } from "react";
 import styles from "/styles/Donees.module.css";
+import { AppsLayout } from "../../src/layouts/apps-layout";
 
 export default function Donees() {
   const { account, enableWeb3 } = useMoralis();
@@ -169,3 +170,7 @@ export default function Donees() {
     </div>
   );
 }
+
+Donees.getLayout = function getLayout(page) {
+  return <AppsLayout>{page}</AppsLayout>;
+};

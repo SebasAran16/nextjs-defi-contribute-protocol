@@ -1,4 +1,5 @@
 import styles from "/styles/About.module.css";
+import { AppsLayout } from "../src/layouts/apps-layout";
 
 export default function AboutUs() {
   return (
@@ -57,3 +58,7 @@ export default function AboutUs() {
     </div>
   );
 }
+
+AboutUs.getLayout = function getLayout(page) {
+  return <AppsLayout>{page}</AppsLayout>;
+};

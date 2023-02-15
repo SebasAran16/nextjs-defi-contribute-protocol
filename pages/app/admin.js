@@ -9,6 +9,7 @@ import { useEffect, useState } from "react";
 import { DoneeRequestBox } from "../../src/components/DoneeRequestsBox";
 import { DoneeToEliminate } from "../../src/components/DoneeToEliminate";
 import styles from "/styles/Admin.module.css";
+import { AppsLayout } from "../../src/layouts/apps-layout";
 
 export default function AdminPage() {
   const { account } = useMoralis();
@@ -264,3 +265,7 @@ export default function AdminPage() {
     </div>
   );
 }
+
+AdminPage.getLayout = function getLayout(page) {
+  return <AppsLayout>{page}</AppsLayout>;
+};

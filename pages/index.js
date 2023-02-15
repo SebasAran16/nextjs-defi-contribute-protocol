@@ -8,16 +8,11 @@ import "swiper/css/navigation";
 export default function Home() {
   return (
     <div className={styles.mainContainer}>
-      <Image
-        id={styles.initialBackground}
-        src="/backgrounds/background-medium.jpg"
-        alt="background"
-        width="1600"
-        height="500"
-      />
       <section id={styles.introSection}>
-        <h2>Verifiably, secure, easy and decentralized</h2>
-        <h4>Help does not need to be trusted, help needs to arrive </h4>
+        <div id={styles.introContent}>
+          <h2>Verifiably, secure, easy and decentralized</h2>
+          <h4>Help does not need to be trusted, help needs to arrive </h4>
+        </div>
       </section>
       <section id={styles.explanationContainer}>
         <h2>What this protocol do?</h2>

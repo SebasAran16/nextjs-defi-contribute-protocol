@@ -1,10 +1,10 @@
 import React from "react";
+import Head from "next/head";
 import { Header } from "../components/header";
 import { Footer } from "../components/footer";
-import Head from "next/head";
-import styles from "/styles/layouts/DonateLayout.module.css";
+import styles from "/styles/layouts/AppsLayout.module.css";
 
-export const DonateLayout = ({ children }) => {
+export const AppsLayout = ({ children }) => {
   return (
     <>
       <Head>
